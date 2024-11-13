@@ -1,0 +1,105 @@
+#moi,#one{
+    background-color: #020887;
+}
+#compe,#two{
+    background-color: #334195;
+}
+#forma,#three{
+    background-color: #647AA3;
+}
+#projets,#four{
+    background-color: floralwhite;
+}
+footer{
+    background-color:  #647AA3;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+h3{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+html{
+    background-color: black;
+}
+body{
+    font-size: 20px;
+    color: white;
+    
+}
+#projets,footer{
+    color: #020887;
+}
+#forma{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reseau{
+    height: 90px;
+    width: 100PX;
+}
+.reseau:hover{
+    background-color: floralwhite;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: floralwhite;
+    height: 80px;
+}
+#uno{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#moi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lang{
+    width: 180px;
+}
+#compe{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#compe div {
+    width: 30%;
+}
+#toile{
+    width: 550px;
+}
+#forma{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a{
+    color: white;
+}
+
+#site{
+    width: 550px;
+}
+#projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#projets div{
+    width: 35%;
+    gap: 60px;
+}
+#present{
+    height: 100px;
+}
+#four,#projets{
+    background-color: black;
+    color: floralwhite;
+}
