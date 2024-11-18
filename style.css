@@ -14,12 +14,17 @@ footer{
     background-color:  #647AA3;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
+    padding: 15%;
+    padding-bottom: 3%;
 }
 h3{
     margin: 0%;
     display: flex;
     justify-content: center;
+    font-family: "DM Serif Text", serif;
+    padding: 50px;
+    font-size: 100px;
 
 }
 html{
@@ -28,7 +33,12 @@ html{
 body{
     font-size: 20px;
     color: white;
+    font-family: "Roboto Flex", serif;
+    width: 100vw!important;
     
+}
+p{
+    font-family: "Roboto Flex", serif;
 }
 #projets,footer{
     color: #020887;
@@ -41,6 +51,10 @@ body{
 .reseau{
     height: 90px;
     width: 100PX;
+}
+.fa-brands{
+    font-size: 100px;
+    object-fit: cover;
 }
 .reseau:hover{
     background-color: floralwhite;
@@ -110,6 +124,7 @@ a{
     justify-content: center;
     margin: auto;
     background-color:  #334195;
+    padding: 10%;
 }
 
 #last{
@@ -119,5 +134,51 @@ a{
 #last img{
     width: 650px;
     height: 650px;
-    
+
 }
+a{
+   text-decoration: none;
+}
+#moi,#two,#three,#four,#mot,#foot{
+    padding-bottom: 150px;
+}
+@media only screen and (max-width: 480px) {
+    nav {
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+        gap: 5%;
+    }
+    #moi, #forma, #compe, #last,#mot{
+        flex-direction: column;
+        align-items: center;
+    }
+    #projets{
+        flex-direction: column;
+    }
+    #forma{
+        flex-direction: column-reverse;
+    }
+    #forma img {
+        width: 250px;
+    }
+    #projets img{
+        width: 360px;
+    }
+    #mot img{
+        width: 350px;
+        height: 370px;
+    }
+    h3,h1{
+        font-size: 50px;
+    }
+    #compe{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #uno,#projets{
+        padding: 8%;
+    }
+    #uno,#two,#three#four,#mot,#foot{
+        padding-bottom: 70px;
+    }
+  }
