@@ -103,3 +103,21 @@ a{
     background-color: black;
     color: floralwhite;
 }
+#mot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color:  #334195;
+}
+
+#last{
+    display: flex;
+    justify-content: space-evenly;
+}
+#last img{
+    width: 650px;
+    height: 650px;
+    
+}
