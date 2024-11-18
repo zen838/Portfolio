@@ -152,11 +152,8 @@ a{
         flex-direction: column;
         align-items: center;
     }
-    #projets{
+    #projets,#forma{
         flex-direction: column;
-    }
-    #forma{
-        flex-direction: column-reverse;
     }
     #forma img {
         width: 250px;
