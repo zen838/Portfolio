@@ -106,10 +106,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#projets div{
-    width: 35%;
-    gap: 60px;
-}
+
 #present{
     height: 100px;
 }
@@ -177,5 +174,8 @@ a{
     }
     #uno,#two,#three#four,#mot,#foot{
         padding-bottom: 70px;
+    }
+    #projets{
+        width: 100%;
     }
   }
