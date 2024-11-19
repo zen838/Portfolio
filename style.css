@@ -1,17 +1,63 @@
-#moi,#one{
-    background-color: #020887;
+*{
+    margin: 0;
+}
+.btn{
+    background-color: #0090FF;
+    width: fit-content;
+    padding: 12px 24px;
+}
+#home-hero{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    h1{
+        margin-bottom: 18px;
+    }
+    #hero-container{
+        width: 1080px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        img{
+            width: 400px;
+        }
+        #hero-content{
+            width: 400px;
+            color: #e4f4ff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 24px;
+            #present{
+                color: #4c9ae6;
+                margin-bottom: 8px;
+
+            }
+            p{
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+h1{
+    font-size: 55px;
+}
+#moi,#home-hero{
+    background-color: #003362;
 }
 #compe,#two{
-    background-color: #334195;
+    background-color: #205D9E;
 }
 #forma,#three{
-    background-color: #647AA3;
+    background-color: #003362;
 }
 #projets,#four{
-    background-color: floralwhite;
+    background-color: #205D9E;
+    color: floralwhite;
+    gap: 40px;
 }
 footer{
-    background-color:  #647AA3;
+    background-color: black;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -24,7 +70,7 @@ h3{
     justify-content: center;
     font-family: "DM Serif Text", serif;
     padding: 50px;
-    font-size: 100px;
+    font-size: 35px;
 
 }
 html{
@@ -39,9 +85,6 @@ body{
 }
 p{
     font-family: "Roboto Flex", serif;
-}
-#projets,footer{
-    color: #020887;
 }
 #forma{
     display: flex;
@@ -107,21 +150,16 @@ a{
     justify-content: space-evenly;
 }
 
-#present{
-    height: 100px;
-}
-#four,#projets{
-    background-color: black;
-    color: floralwhite;
-}
 #mot{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color:  #334195;
-    padding: 10%;
+    background-color:  #003362;
+    img,p{
+        padding: 150px;
+    }
 }
 
 #last{
@@ -139,6 +177,7 @@ a{
 #moi,#two,#three,#four,#mot,#foot{
     padding-bottom: 150px;
 }
+
 @media only screen and (max-width: 480px) {
     nav {
         flex-wrap: wrap;
